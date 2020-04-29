@@ -1,0 +1,25 @@
+{
+  "name": "magehelp/magento2-redirect-on-login",
+  "version": "1.0",
+  "keywords": ["magento", "magento2", "account", "customer", "redirection"],
+  "type": "magento2-module",
+  "description": "This module is designed for Magento 2. It add the possibility for the site owner to force customer redirection on login.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo Gabriel",
+      "email": "ralgcorp@gmail.com",
+      "homepage": "https://www.rodrigogabriel.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageHelp\\Magento2RedirectOnLogin\\": ""
+    }
+  }
+}
